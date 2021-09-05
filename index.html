@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ange NOUTCHOGBE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+           
+        }
+        body{
+            width: 80%;
+            margin: auto;
+            
+        }
+        p{
+            font-size: 1.1em;
+        }
+        header{
+            border-top: 5px solid blue;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 10px;
+        }
+        .moi{
+            display: inline-block;
+            position: relative;
+            left: 100px;
+            width: 250px;
+            height: auto;
+            background-size: cover;
+            max-width: 65%;
+        }
+        header div{
+            margin-left: 20%;
+        }
+        header h2, h3{
+            color: blue;
+        }
+        header img{
+            width: 20px;
+            height: 20px;
+        }
+        .objectif{
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .objectif .content{
+            text-align: justify;
+        }
+        .object{
+            width: 100%;
+            border-bottom: 3px solid rgb(0, 0, 255);
+        }
+        .object p{
+            display: inline-block;
+            border-radius: 10px 10px 0px 0px;
+            background-color: rgb(0, 0, 255);
+            padding: 5px 10px;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+        }
+        .content{
+            padding: 15px 7px;
+        }
+        li{
+            padding: 7px 0px;
+        }
+        a{
+            text-decoration: none;
+            color: rgba(15, 8, 8, 0.808);
+        }
+        .contents li h4{
+            font-weight: 100;
+        }
+        .infos p{
+            margin-top: 10px;
+        }
+        @media screen and (max-width:750px){
+            header{
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+
+            }
+            .infos{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .infos h3{
+                margin-top: 10px;
+            }
+            *{
+                font-size: 0.9rem;
+            }
+            header div{
+                margin: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+  <header>
+        <img src="moi.jpeg" alt="Photo Ange NOUTCHOGBE" class="moi img img-fluid">    
+        <div class="infos">
+            <h2>NOUTCHOGBE Ange Cyrille</h2>
+            <h3>Developer</h3>
+            <p><img src="localisation.png" alt="Ma localisation"> | Contonou/Agla</p>
+            <p><img src="tel.png" alt="Mon numéro de téléphone"> | +22963224514</p>
+            <p><img src="mail.png" alt="Adresse mail"> | angenoutchogbe@gmail.com</p>
+            <p><img src="git.png" alt="Mon github"> | https://github.com/AngeMervane1Jdev</p>
+            <p><img src="link.png" alt="Mon linkedIn"> | https://www.linkedin.com/in/ange-cyrille-noutchogbe-0771ba211/</p>
+        </div>
+    </header>
+    <main>
+        <div class="objectif">
+            <div class="object">
+                <p>Goal</p>
+            </div>
+            <p class="content">
+                Etant vraiment passioné par tout ce qui concerne l'informatique, plus principalement la programmation 
+                web, la programmation mobile et l'intelligence artificielle, mon but est d'améliorer mes compétences 
+                et d'acquérir de la connaissance et de l'expérience à travers la réalisation de projets concrets et utiles
+            </p>
+        </div>
+        <div class="education">
+            <div class="object">
+                <p>Education</p>
+            </div>
+            <ul class="content">
+                <li>
+                    <h4>National Higher Institute of Indistrual Techniques (INSTI) of Lokossa | September 2019 - To date</h4>
+                    <p>Professional License in Electrical and Computer Engineering (2nd year currently)</p>
+                </li>
+                <li>
+                    <h4>Scientific baccalaureate (BAC Series C) | July 2019</h4>
+                </li>
+                <li>
+                    <h4>First Cycle Study Certificate (BECP) | July 2016</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="competences">
+            <div class="object">
+                <p>Skills</p>
+            </div>
+            <ul class="content">
+                <li>Mastery of languages C, C++, Java, Python, Ruby, Dart</li>
+                <li>Mastery of languages HTML, CSS, JavaScript, PHP</li>
+                <li>Mastery of  front-end frameworks Bootstrap, JQuerry, React-JS et Angular</li>
+                <li>Mastery of framework back-end Laravel, Ruby on Rails</li>
+                <li>Mastery of systems Linux et Windows</li>
+                <li>Knowledge of mobile programming with Android studio</li>
+                <li>Debuting in programming with Flutter</li>
+            </ul>
+        </div>
+        <div class="projets">
+            <div class="object">
+                <p>Projects</p>
+            </div>
+            <ul class="content">
+                <li>
+                    <h4><a href="https://github.com/AngeMervane1Jdev/Gestion_de_tfe-laravel-">https://github.com/AngeMervane1Jdev/Gestion_de_tfe-laravel-</a></h4>
+                    <p>Web project for "end of study work" (TFE in french) management build with laravel framework</p>
+                </li>
+                <li>
+                    <h4><a href="https://github.com/AngeMervane1Jdev/CalculatriceScientifiqueJavaFXFx">https://github.com/AngeMervane1Jdev/CalculatriceScientifiqueJavaFXFx</a></h4>
+                    <p>Scientifique Calculator build in Java wiht framework Java Fx.</p>
+                </li>
+                <li>
+                    <h4><a href="https://github.com/AngeMervane1Jdev/BlocNoteAndroid">https://github.com/AngeMervane1Jdev/BlocNoteAndroid</a></h4>
+                    <p>Simple Bloc note build with Android Studio (java)</p>
+                </li>
+                <li>
+                    <h4><a href="https://github.com/AngeMervane1Jdev/BadgeMaker">https://github.com/AngeMervane1Jdev/BadgeMaker</a></h4>
+                    <p>Projet Web, BadgeMaker build with  React Js As internship project</p>
+                </li>
+                <li>
+                    <h4>And more other ...</h4>
+                   
+                </li>
+            </ul>
+        </div>
+        <div class="certifications">
+            <div class="object">
+                <p>Certifications</p>
+            </div>
+            <ul class="contents">
+                <li>
+                    <h4><a href="https://www.sololearn.com/certificates/course/en/21539114/1073/landscape/png">Certification  Python Core (Sololearn)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://www.sololearn.com/certificates/course/en/21539114/1024/landscape/png">Certification Javascript (Sololearn)</a></h4>
+                </li>
+                <li>
+                    <h4><a href="https://www.sololearn.com/certificates/course/en/21539114/1068/landscape/png">Certification Java (Sololearn)</a></h4>
+                </li>
+            </ul>
+        </div>
+        <div class="langues">
+            <div class="object">
+                <p>Langues</p>
+            </div>
+            <ul class="content">
+                <li>Français</li>
+                <li>Anglais</li>
+                <li>Fon</li>
+            </ul>
+        </div>
+        <div class="interet">
+            <div class="object">
+                <p>Interets</p>
+            </div>
+            <ul class="content">
+                <li>Basketball</li>
+                <li>Musique</li>    
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
